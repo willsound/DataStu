@@ -4441,6 +4441,9 @@
       <column caption='同口径核心利润' datatype='real' name='[Calculation_766174924106739714]' role='measure' type='quantitative'>
         <calculation class='tableau' formula='[Calculation_766174924106039296]' />
       </column>
+      <column caption='营收增长率' datatype='real' name='[Calculation_766174924135436291]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='([一营业总收入E]-[一营业总收入B])*100/[一营业总收入B]' />
+      </column>
       <column caption='预付占总资产比' datatype='real' name='[Calculation_830632691935539200]' role='measure' type='quantitative'>
         <calculation class='tableau' formula='[一预付款项E]/[一资产总计E]*100' />
       </column>
@@ -4537,7 +4540,6 @@
       <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
         <calculation class='tableau' formula='1' />
       </column>
-      <column datatype='real' hidden='true' name='[一营业总收入B]' role='measure' type='quantitative' />
       <column datatype='real' name='[一营业总收入E]' role='measure' type='quantitative' />
       <column datatype='real' hidden='true' name='[三营业利润B]' role='measure' type='quantitative' />
       <column datatype='real' name='[三营业利润E]' role='measure' type='quantitative' />
@@ -7131,7 +7133,7 @@
           </metadata-records>
         </connection>
       </extract>
-      <layout dim-ordering='alphabetic' dim-percentage='0.299342' measure-ordering='alphabetic' measure-percentage='0.700658' show-aliased-fields='true' show-structure='true' user-set-layout='true' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.414474' measure-ordering='alphabetic' measure-percentage='0.585526' show-aliased-fields='true' show-hidden-fields='true' show-structure='true' user-set-layout='true' />
       <style>
         <style-rule element='mark'>
           <encoding attr='color' field='[:Measure Names]' type='palette'>
@@ -7688,6 +7690,9 @@
             <column caption='同口径核心利润' datatype='real' name='[Calculation_766174924106739714]' role='measure' type='quantitative'>
               <calculation class='tableau' formula='[Calculation_766174924106039296]' />
             </column>
+            <column caption='营收增长率' datatype='real' name='[Calculation_766174924135436291]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([一营业总收入E]-[一营业总收入B])*100/[一营业总收入B]' />
+            </column>
             <column caption='预付占总资产比' datatype='real' name='[Calculation_830632691935539200]' role='measure' type='quantitative'>
               <calculation class='tableau' formula='[一预付款项E]/[一资产总计E]*100' />
             </column>
@@ -7778,6 +7783,7 @@
             <column-instance column='[Calculation_512284493681549315]' derivation='Sum' name='[sum:Calculation_512284493681549315:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Calculation_512284493683187716]' derivation='Sum' name='[sum:Calculation_512284493683187716:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Calculation_766174924106596353]' derivation='Sum' name='[sum:Calculation_766174924106596353:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_766174924135436291]' derivation='Sum' name='[sum:Calculation_766174924135436291:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Calculation_830632691935539200]' derivation='Sum' name='[sum:Calculation_830632691935539200:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Calculation_830632691950084099]' derivation='Sum' name='[sum:Calculation_830632691950084099:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Calculation_830632691951431685]' derivation='Sum' name='[sum:Calculation_830632691951431685:qk]' pivot='key' type='quantitative' />
@@ -7813,6 +7819,7 @@
             <column datatype='real' name='[一流动资产合计B]' role='measure' type='quantitative' />
             <column datatype='real' name='[一流动资产合计E]' role='measure' type='quantitative' />
             <column datatype='real' name='[一经营活动产生的现金流量净额E]' role='measure' type='quantitative' />
+            <column datatype='real' name='[一营业总收入B]' role='measure' type='quantitative' />
             <column datatype='real' name='[一营业总收入E]' role='measure' type='quantitative' />
             <column datatype='real' name='[一货币资金E]' role='measure' type='quantitative' />
             <column datatype='real' name='[一资产总计B]' role='measure' type='quantitative' />
@@ -7855,6 +7862,7 @@
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1q5awjx14kh08j17dkgti1853kk4].[sum:Calculation_855683964518891521:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1q5awjx14kh08j17dkgti1853kk4].[sum:Calculation_830632692038451222:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1q5awjx14kh08j17dkgti1853kk4].[sum:Calculation_766174924106596353:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1q5awjx14kh08j17dkgti1853kk4].[sum:Calculation_766174924135436291:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1q5awjx14kh08j17dkgti1853kk4].[sum:Calculation_512284493683187716:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1q5awjx14kh08j17dkgti1853kk4].[sum:Calculation_512284493679771649:qk]&quot;' />
             </groupfilter>
@@ -7917,6 +7925,7 @@
               <bucket>&quot;[federated.1q5awjx14kh08j17dkgti1853kk4].[sum:销售费用率 (复制 2):qk]&quot;</bucket>
               <bucket>&quot;[federated.1q5awjx14kh08j17dkgti1853kk4].[sum:Calculation_855683964523454466:qk]&quot;</bucket>
               <bucket>&quot;[federated.1q5awjx14kh08j17dkgti1853kk4].[sum:Calculation_830632692044431384:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1q5awjx14kh08j17dkgti1853kk4].[sum:Calculation_766174924135436291:qk]&quot;</bucket>
               <bucket>&quot;[federated.1q5awjx14kh08j17dkgti1853kk4].[sum:Calculation_855683964518891521:qk]&quot;</bucket>
               <bucket>&quot;[federated.1q5awjx14kh08j17dkgti1853kk4].[sum:Calculation_855683964527251459:qk]&quot;</bucket>
               <bucket>&quot;[federated.1q5awjx14kh08j17dkgti1853kk4].[sum:Calculation_830632692038451222:qk]&quot;</bucket>
@@ -7964,6 +7973,7 @@
             <format attr='text-format' field='[federated.1q5awjx14kh08j17dkgti1853kk4].[sum:Calculation_512284493681549315:qk]' value='n0.00&quot;%&quot;;-0.00&quot;%&quot;' />
             <format attr='text-format' field='[federated.1q5awjx14kh08j17dkgti1853kk4].[sum:Calculation_512284493683187716:qk]' value='n0.00&quot;%&quot;;-0.00&quot;%&quot;' />
             <format attr='text-format' field='[federated.1q5awjx14kh08j17dkgti1853kk4].[sum:Calculation_766174924106596353:qk]' value='n0.00;-0.00' />
+            <format attr='text-format' field='[federated.1q5awjx14kh08j17dkgti1853kk4].[sum:Calculation_766174924135436291:qk]' value='n0.00&quot;%&quot;;-0.00&quot;%&quot;' />
           </style-rule>
         </style>
         <panes>
@@ -8892,7 +8902,7 @@
         </highlight>
       </viewpoint>
     </window>
-    <window class='worksheet' name='盈利能力分析' tab-color='#17927d'>
+    <window class='worksheet' maximized='true' name='盈利能力分析' tab-color='#17927d'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -8923,7 +8933,7 @@
         </highlight>
       </viewpoint>
     </window>
-    <window class='worksheet' maximized='true' name='竞争能力分析' tab-color='#17927d'>
+    <window class='worksheet' name='竞争能力分析' tab-color='#17927d'>
       <cards>
         <edge name='left'>
           <strip size='160'>
