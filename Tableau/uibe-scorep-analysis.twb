@@ -1,0 +1,360 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20191.19.0123.1906                               -->
+<workbook original-version='18.1' source-build='2019.1.0 (20191.19.0123.1906)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='专业 (uibescorea)' inline='true' name='federated.0uqcxl405qyqe715ztg511lf1liz' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='uibescorea' name='excel-direct.0nn31vy114qs0k14xi5540gfwwph'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/GitHub/DataStu/Dataset/外经贸同等学力联考/uibescorea.xls' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.0nn31vy114qs0k14xi5540gfwwph' name='专业' table='[专业$]' type='table'>
+          <columns gridOrigin='A1:G8999:no:A1:G8999:0' header='yes' outcome='2'>
+            <column datatype='string' name='准考证号' ordinal='0' />
+            <column datatype='string' name='姓名' ordinal='1' />
+            <column datatype='string' name='性别' ordinal='2' />
+            <column datatype='string' name='科目' ordinal='3' />
+            <column datatype='string' name='合格证号' ordinal='4' />
+            <column datatype='integer' name='成绩' ordinal='5' />
+            <column datatype='date' date-parse-format='yyyy' name='年度' ordinal='6' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[专业]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:G8999:no:A1:G8999:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>准考证号</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[准考证号]</local-name>
+            <parent-name>[专业]</parent-name>
+            <remote-alias>准考证号</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>姓名</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[姓名]</local-name>
+            <parent-name>[专业]</parent-name>
+            <remote-alias>姓名</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>性别</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[性别]</local-name>
+            <parent-name>[专业]</parent-name>
+            <remote-alias>性别</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>科目</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[科目]</local-name>
+            <parent-name>[专业]</parent-name>
+            <remote-alias>科目</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>合格证号</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[合格证号]</local-name>
+            <parent-name>[专业]</parent-name>
+            <remote-alias>合格证号</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>成绩</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[成绩]</local-name>
+            <parent-name>[专业]</parent-name>
+            <remote-alias>成绩</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>年度</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[年度]</local-name>
+            <parent-name>[专业]</parent-name>
+            <remote-alias>年度</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LZH_RCN_S2' />
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='integer' name='[成绩]' role='measure' type='quantitative' />
+      <column aggregation='CountD' datatype='string' name='[科目]' role='dimension' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.547149' measure-ordering='alphabetic' measure-percentage='0.452851' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;China&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='通过人数'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='专业 (uibescorea)' name='federated.0uqcxl405qyqe715ztg511lf1liz' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0uqcxl405qyqe715ztg511lf1liz'>
+            <column-instance column='[科目]' derivation='CountD' name='[ctd:科目:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[成绩]' derivation='Median' name='[med:成绩:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[科目]' derivation='None' name='[none:科目:nk]' pivot='key' type='nominal' />
+            <column-instance column='[年度]' derivation='Year' name='[yr:年度:ok]' pivot='key' type='ordinal' />
+            <column datatype='date' name='[年度]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[成绩]' role='measure' type='quantitative' />
+            <column aggregation='CountD' datatype='string' name='[科目]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0uqcxl405qyqe715ztg511lf1liz].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0uqcxl405qyqe715ztg511lf1liz].[med:成绩:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0uqcxl405qyqe715ztg511lf1liz].[ctd:科目:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0uqcxl405qyqe715ztg511lf1liz].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0uqcxl405qyqe715ztg511lf1liz].[med:成绩:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0uqcxl405qyqe715ztg511lf1liz].[none:科目:nk]</rows>
+        <cols>[federated.0uqcxl405qyqe715ztg511lf1liz].[yr:年度:ok]</cols>
+      </table>
+      <simple-id uuid='{1234B482-D6F7-4F62-9C5C-05F4CF73F82C}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='通过人数'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0uqcxl405qyqe715ztg511lf1liz].[med:成绩:qk]</field>
+            <field>[federated.0uqcxl405qyqe715ztg511lf1liz].[none:性别:nk]</field>
+            <field>[federated.0uqcxl405qyqe715ztg511lf1liz].[none:科目:nk]</field>
+            <field>[federated.0uqcxl405qyqe715ztg511lf1liz].[yr:年度:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B6977E57-EC06-435C-A661-612BCF32561F}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='124' name='通过人数' width='192'>
+      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
+      b731Fv8HD6KSoIptw70AAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
