@@ -1,0 +1,528 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20191.19.0123.1906                               -->
+<workbook original-version='18.1' source-build='2019.1.0 (20191.19.0123.1906)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='专业+ (pystu)' inline='true' name='federated.06pddto0e7i4nn1gx7u0k03z0oei' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='localhost' name='mysql.1pkyqfv06owrrb15bzoiz055kb55'>
+            <connection class='mysql' dbname='pystu' odbc-native-protocol='' one-time-sql='' port='3306' server='localhost' source-charset='' username='root' />
+          </named-connection>
+        </named-connections>
+        <relation join='inner' type='join'>
+          <clause type='join'>
+            <expression op='AND'>
+              <expression op='='>
+                <expression op='[专业].[姓名]' />
+                <expression op='[外语].[姓名]' />
+              </expression>
+              <expression op='='>
+                <expression op='[专业].[年度]' />
+                <expression op='[外语].[年度]' />
+              </expression>
+            </expression>
+          </clause>
+          <relation connection='mysql.1pkyqfv06owrrb15bzoiz055kb55' name='专业' table='[专业]' type='table' />
+          <relation connection='mysql.1pkyqfv06owrrb15bzoiz055kb55' name='外语' table='[外语]' type='table' />
+        </relation>
+        <cols>
+          <map key='[准考证号 (外语)]' value='[外语].[准考证号]' />
+          <map key='[准考证号]' value='[专业].[准考证号]' />
+          <map key='[合格证号 (外语)]' value='[外语].[合格证号]' />
+          <map key='[合格证号]' value='[专业].[合格证号]' />
+          <map key='[姓名 (外语)]' value='[外语].[姓名]' />
+          <map key='[姓名]' value='[专业].[姓名]' />
+          <map key='[年度 (外语)]' value='[外语].[年度]' />
+          <map key='[年度]' value='[专业].[年度]' />
+          <map key='[性别 (外语)]' value='[外语].[性别]' />
+          <map key='[性别]' value='[专业].[性别]' />
+          <map key='[成绩 (外语)]' value='[外语].[成绩]' />
+          <map key='[成绩]' value='[专业].[成绩]' />
+          <map key='[科目 (外语)]' value='[外语].[科目]' />
+          <map key='[科目]' value='[专业].[科目]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>准考证号</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[准考证号]</local-name>
+            <parent-name>[专业]</parent-name>
+            <remote-alias>准考证号</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>姓名</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[姓名]</local-name>
+            <parent-name>[专业]</parent-name>
+            <remote-alias>姓名</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>性别</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[性别]</local-name>
+            <parent-name>[专业]</parent-name>
+            <remote-alias>性别</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>科目</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[科目]</local-name>
+            <parent-name>[专业]</parent-name>
+            <remote-alias>科目</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>合格证号</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[合格证号]</local-name>
+            <parent-name>[专业]</parent-name>
+            <remote-alias>合格证号</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>成绩</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[成绩]</local-name>
+            <parent-name>[专业]</parent-name>
+            <remote-alias>成绩</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>年度</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[年度]</local-name>
+            <parent-name>[专业]</parent-name>
+            <remote-alias>年度</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>准考证号</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[准考证号 (外语)]</local-name>
+            <parent-name>[外语]</parent-name>
+            <remote-alias>准考证号</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>姓名</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[姓名 (外语)]</local-name>
+            <parent-name>[外语]</parent-name>
+            <remote-alias>姓名</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>性别</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[性别 (外语)]</local-name>
+            <parent-name>[外语]</parent-name>
+            <remote-alias>性别</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>科目</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[科目 (外语)]</local-name>
+            <parent-name>[外语]</parent-name>
+            <remote-alias>科目</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>合格证号</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[合格证号 (外语)]</local-name>
+            <parent-name>[外语]</parent-name>
+            <remote-alias>合格证号</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>成绩</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[成绩 (外语)]</local-name>
+            <parent-name>[外语]</parent-name>
+            <remote-alias>成绩</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>年度</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[年度 (外语)]</local-name>
+            <parent-name>[外语]</parent-name>
+            <remote-alias>年度</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.673246' measure-ordering='alphabetic' measure-percentage='0.326754' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;China&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='一次性通过'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='专业+ (pystu)' name='federated.06pddto0e7i4nn1gx7u0k03z0oei' />
+          </datasources>
+          <datasource-dependencies datasource='federated.06pddto0e7i4nn1gx7u0k03z0oei'>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column-instance column='[年度]' derivation='None' name='[none:年度:nk]' pivot='key' type='nominal' />
+            <column-instance column='[科目]' derivation='None' name='[none:科目:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[年度]' role='dimension' type='nominal' />
+            <column datatype='string' name='[科目]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.06pddto0e7i4nn1gx7u0k03z0oei].[none:科目:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.06pddto0e7i4nn1gx7u0k03z0oei].[sum:Number of Records:qk]</rows>
+        <cols>[federated.06pddto0e7i4nn1gx7u0k03z0oei].[none:年度:nk]</cols>
+      </table>
+      <simple-id uuid='{1340B702-5ED5-4DF6-B971-42F8375B9A70}' />
+    </worksheet>
+    <worksheet name='工作表 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='专业+ (pystu)' name='federated.06pddto0e7i4nn1gx7u0k03z0oei' />
+          </datasources>
+          <datasource-dependencies datasource='federated.06pddto0e7i4nn1gx7u0k03z0oei'>
+            <column-instance column='[年度]' derivation='None' name='[none:年度:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[年度]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.06pddto0e7i4nn1gx7u0k03z0oei].[none:年度:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{F445FC50-85C0-474D-9968-E947C830EA73}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='一次性通过'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.06pddto0e7i4nn1gx7u0k03z0oei].[none:科目:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.06pddto0e7i4nn1gx7u0k03z0oei].[none:年度:nk]</field>
+            <field>[federated.06pddto0e7i4nn1gx7u0k03z0oei].[none:科目:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{7B248FEB-C783-4E2B-BC83-E8B2E1D96805}' />
+    </window>
+    <window class='worksheet' name='工作表 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.06pddto0e7i4nn1gx7u0k03z0oei].[none:年度:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{9681AD77-A8C8-4E9D-A78F-0AD5E7534BD6}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='一次性通过' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='工作表 2' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
