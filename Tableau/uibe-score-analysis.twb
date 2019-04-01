@@ -151,12 +151,8 @@
       <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
         <calculation class='tableau' formula='1' />
       </column>
-<<<<<<< HEAD
-      <layout dim-ordering='alphabetic' dim-percentage='0.62735' measure-ordering='alphabetic' measure-percentage='0.37265' rowDisplayCount='1000' show-aliased-fields='true' show-structure='true' />
-=======
       <column aggregation='CountD' datatype='string' name='[科目]' role='dimension' type='nominal' />
       <layout dim-ordering='alphabetic' dim-percentage='0.547149' measure-ordering='alphabetic' measure-percentage='0.452851' show-structure='true' />
->>>>>>> 6c071248bb56dd354ef906b07648bb719d3f0243
       <semantic-values>
         <semantic-value key='[Country].[Name]' value='&quot;China&quot;' />
       </semantic-values>
@@ -256,69 +252,7 @@
     </window>
   </windows>
   <thumbnails>
-<<<<<<< HEAD
-    <thumbnail height='164' name='专业授予量' width='164'>
-      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
-    </thumbnail>
-    <thumbnail height='192' name='同等学力学位授予量' width='192'>
-=======
     <thumbnail height='192' name='通过人数' width='192'>
->>>>>>> 6c071248bb56dd354ef906b07648bb719d3f0243
       iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
       AAAgAElEQVR4nO3dd3Ac93n4//fu9YZy6I1EZQPBIpIi1UhJJC2qO5JVzdj5yp4oVprzm7Hz
       hycejzP2JB5P7CiOZQ0lWba//LrIFq1GqpFiJ8GKSqK3Aw53OOAOh6t7t+X3ByjISiQLsIki
