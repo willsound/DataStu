@@ -1,0 +1,1993 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20191.19.0123.1906                               -->
+<workbook original-version='18.1' source-build='2019.1.0 (20191.19.0123.1906)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='数据集190701-调整成交率' inline='true' name='federated.0z9r83s1o9fqi910q9i5m0xvzg3x' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='数据集190701-调整成交率' name='stat-direct.172dlj30w319b6128vn1g0irhyw4'>
+            <connection class='stat-direct' directory='E:/我的文档/01个人文档/外经贸/学位申请/论文写作/数据集' encoding-error-limit='' filename='数据集190701-调整成交率.sav' password='' server='' source-charset='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='stat-direct.172dlj30w319b6128vn1g0irhyw4' name='数据集190701-调整成交率.sav' table='[数据集190701-调整成交率.sav]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>客户名称</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[客户名称]</local-name>
+            <parent-name>[数据集190701-调整成交率.sav]</parent-name>
+            <remote-alias>客户名称</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>性别</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[性别]</local-name>
+            <parent-name>[数据集190701-调整成交率.sav]</parent-name>
+            <remote-alias>性别</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>教育水平</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[教育水平]</local-name>
+            <parent-name>[数据集190701-调整成交率.sav]</parent-name>
+            <remote-alias>教育水平</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>家庭结构</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[家庭结构]</local-name>
+            <parent-name>[数据集190701-调整成交率.sav]</parent-name>
+            <remote-alias>家庭结构</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>年龄</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[年龄]</local-name>
+            <parent-name>[数据集190701-调整成交率.sav]</parent-name>
+            <remote-alias>年龄</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>收入</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[收入]</local-name>
+            <parent-name>[数据集190701-调整成交率.sav]</parent-name>
+            <remote-alias>收入</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>来源区域</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[来源区域]</local-name>
+            <parent-name>[数据集190701-调整成交率.sav]</parent-name>
+            <remote-alias>来源区域</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>购房预算</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[购房预算]</local-name>
+            <parent-name>[数据集190701-调整成交率.sav]</parent-name>
+            <remote-alias>购房预算</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>需求面积</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[需求面积]</local-name>
+            <parent-name>[数据集190701-调整成交率.sav]</parent-name>
+            <remote-alias>需求面积</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>是否老带新</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[是否老带新]</local-name>
+            <parent-name>[数据集190701-调整成交率.sav]</parent-name>
+            <remote-alias>是否老带新</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>户型关注度</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[户型关注度]</local-name>
+            <parent-name>[数据集190701-调整成交率.sav]</parent-name>
+            <remote-alias>户型关注度</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>车位关注度</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[车位关注度]</local-name>
+            <parent-name>[数据集190701-调整成交率.sav]</parent-name>
+            <remote-alias>车位关注度</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>便利关注度</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[便利关注度]</local-name>
+            <parent-name>[数据集190701-调整成交率.sav]</parent-name>
+            <remote-alias>便利关注度</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>价格关注度</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[价格关注度]</local-name>
+            <parent-name>[数据集190701-调整成交率.sav]</parent-name>
+            <remote-alias>价格关注度</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>交通关注度</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[交通关注度]</local-name>
+            <parent-name>[数据集190701-调整成交率.sav]</parent-name>
+            <remote-alias>交通关注度</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>投资关注度</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[投资关注度]</local-name>
+            <parent-name>[数据集190701-调整成交率.sav]</parent-name>
+            <remote-alias>投资关注度</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>最后一次来电</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[最后一次来电]</local-name>
+            <parent-name>[数据集190701-调整成交率.sav]</parent-name>
+            <remote-alias>最后一次来电</remote-alias>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>最后一次来访</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[最后一次来访]</local-name>
+            <parent-name>[数据集190701-调整成交率.sav]</parent-name>
+            <remote-alias>最后一次来访</remote-alias>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>来访次数</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[来访次数]</local-name>
+            <parent-name>[数据集190701-调整成交率.sav]</parent-name>
+            <remote-alias>来访次数</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>来电次数</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[来电次数]</local-name>
+            <parent-name>[数据集190701-调整成交率.sav]</parent-name>
+            <remote-alias>来电次数</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>是否认购</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[是否认购]</local-name>
+            <parent-name>[数据集190701-调整成交率.sav]</parent-name>
+            <remote-alias>是否认购</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='integer' datatype-customized='true' name='[交通关注度]' role='dimension' type='ordinal'>
+        <aliases>
+          <alias key='0' value='一般' />
+          <alias key='1' value='关注' />
+          <alias key='2' value='非常关注' />
+        </aliases>
+      </column>
+      <column datatype='integer' datatype-customized='true' name='[价格关注度]' role='measure' type='quantitative' />
+      <column datatype='integer' datatype-customized='true' name='[便利关注度]' role='measure' type='quantitative' />
+      <column datatype='integer' datatype-customized='true' name='[家庭结构]' role='measure' type='quantitative' />
+      <column datatype='integer' datatype-customized='true' name='[年龄]' role='dimension' type='quantitative' />
+      <column aggregation='Sum' datatype='real' name='[性别]' role='dimension' type='ordinal'>
+        <aliases>
+          <alias key='0.0' value='女' />
+          <alias key='1.0' value='男' />
+        </aliases>
+      </column>
+      <column datatype='integer' datatype-customized='true' name='[户型关注度]' role='measure' type='quantitative' />
+      <column datatype='integer' datatype-customized='true' name='[投资关注度]' role='measure' type='quantitative' />
+      <column aggregation='Sum' datatype='integer' datatype-customized='true' name='[收入]' role='dimension' type='ordinal'>
+        <aliases>
+          <alias key='0' value='(0,20万]' />
+          <alias key='1' value='（20万，50万]' />
+          <alias key='2' value='（50万，70万]' />
+          <alias key='3' value='(70万，100万]' />
+          <alias key='4' value='(100万，+∞）' />
+        </aliases>
+      </column>
+      <column aggregation='Sum' datatype='integer' datatype-customized='true' name='[教育水平]' role='dimension' type='ordinal'>
+        <aliases>
+          <alias key='0' value='高中及以下' />
+          <alias key='1' value='大学' />
+          <alias key='2' value='研究生及以上' />
+        </aliases>
+      </column>
+      <column aggregation='Sum' datatype='integer' datatype-customized='true' name='[是否老带新]' role='dimension' type='ordinal'>
+        <aliases>
+          <alias key='0' value='直访' />
+          <alias key='1' value='老带新' />
+        </aliases>
+      </column>
+      <column datatype='integer' datatype-customized='true' name='[是否认购]' role='dimension' type='ordinal'>
+        <aliases>
+          <alias key='0' value='未认购' />
+          <alias key='1' value='认购' />
+        </aliases>
+      </column>
+      <column datatype='string' name='[最后一次来电 (组)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[最后一次来电]' new-bin='true'>
+          <bin default-name='false' value='&quot;开盘前1-3个月&quot;'>
+            <value>#2018-01-01#</value>
+            <value>#2018-01-02#</value>
+            <value>#2018-01-03#</value>
+            <value>#2018-01-04#</value>
+            <value>#2018-01-05#</value>
+            <value>#2018-01-07#</value>
+            <value>#2018-01-08#</value>
+            <value>#2018-01-09#</value>
+            <value>#2018-01-10#</value>
+            <value>#2018-01-11#</value>
+            <value>#2018-01-12#</value>
+            <value>#2018-01-13#</value>
+            <value>#2018-01-14#</value>
+            <value>#2018-01-15#</value>
+            <value>#2018-01-16#</value>
+            <value>#2018-01-17#</value>
+            <value>#2018-01-18#</value>
+            <value>#2018-01-19#</value>
+            <value>#2018-01-20#</value>
+            <value>#2018-01-21#</value>
+            <value>#2018-01-22#</value>
+            <value>#2018-01-23#</value>
+            <value>#2018-01-24#</value>
+            <value>#2018-01-25#</value>
+            <value>#2018-01-26#</value>
+            <value>#2018-01-27#</value>
+            <value>#2018-01-28#</value>
+            <value>#2018-01-29#</value>
+            <value>#2018-01-30#</value>
+            <value>#2018-02-01#</value>
+            <value>#2018-02-02#</value>
+            <value>#2018-02-03#</value>
+            <value>#2018-02-06#</value>
+            <value>#2018-02-07#</value>
+            <value>#2018-02-08#</value>
+            <value>#2018-02-09#</value>
+            <value>#2018-02-10#</value>
+            <value>#2018-02-11#</value>
+            <value>#2018-02-12#</value>
+            <value>#2018-02-13#</value>
+            <value>#2018-02-14#</value>
+            <value>#2018-02-15#</value>
+            <value>#2018-02-16#</value>
+            <value>#2018-02-18#</value>
+            <value>#2018-02-19#</value>
+            <value>#2018-02-20#</value>
+            <value>#2018-02-21#</value>
+            <value>#2018-02-22#</value>
+            <value>#2018-02-23#</value>
+            <value>#2018-02-24#</value>
+            <value>#2018-02-25#</value>
+            <value>#2018-02-26#</value>
+            <value>#2018-02-28#</value>
+            <value>#2018-03-01#</value>
+            <value>#2018-03-02#</value>
+            <value>#2018-03-03#</value>
+            <value>#2018-03-04#</value>
+            <value>#2018-03-05#</value>
+            <value>#2018-03-06#</value>
+            <value>#2018-03-07#</value>
+            <value>#2018-03-08#</value>
+            <value>#2018-03-09#</value>
+            <value>#2018-03-10#</value>
+            <value>#2018-03-11#</value>
+            <value>#2018-03-12#</value>
+            <value>#2018-03-13#</value>
+            <value>#2018-03-14#</value>
+            <value>#2018-03-15#</value>
+            <value>#2018-03-16#</value>
+            <value>#2018-03-17#</value>
+            <value>#2018-03-18#</value>
+            <value>#2018-03-19#</value>
+            <value>#2018-03-20#</value>
+            <value>#2018-03-22#</value>
+            <value>#2018-03-23#</value>
+            <value>#2018-03-24#</value>
+            <value>#2018-03-25#</value>
+            <value>#2018-03-26#</value>
+            <value>#2018-03-27#</value>
+            <value>#2018-03-28#</value>
+            <value>#2018-03-29#</value>
+            <value>#2018-03-30#</value>
+            <value>#2018-03-31#</value>
+          </bin>
+          <bin default-name='false' value='&quot;开盘前1个月&quot;'>
+            <value>#2018-04-01#</value>
+            <value>#2018-04-02#</value>
+            <value>#2018-04-03#</value>
+            <value>#2018-04-04#</value>
+            <value>#2018-04-05#</value>
+            <value>#2018-04-06#</value>
+            <value>#2018-04-07#</value>
+            <value>#2018-04-08#</value>
+            <value>#2018-04-09#</value>
+            <value>#2018-04-10#</value>
+            <value>#2018-04-11#</value>
+            <value>#2018-04-12#</value>
+            <value>#2018-04-13#</value>
+            <value>#2018-04-14#</value>
+            <value>#2018-04-15#</value>
+            <value>#2018-04-16#</value>
+            <value>#2018-04-17#</value>
+            <value>#2018-04-18#</value>
+            <value>#2018-04-19#</value>
+            <value>#2018-04-20#</value>
+          </bin>
+          <bin default-name='false' value='&quot;开盘后1周&quot;'>
+            <value>#2018-04-23#</value>
+            <value>#2018-04-24#</value>
+            <value>#2018-04-25#</value>
+            <value>#2018-04-26#</value>
+            <value>#2018-04-27#</value>
+            <value>#2018-04-28#</value>
+            <value>#2018-04-29#</value>
+            <value>#2018-04-30#</value>
+          </bin>
+          <bin default-name='false' value='&quot;开盘日&quot;'>
+            <value>#2018-04-21#</value>
+            <value>#2018-04-22#</value>
+          </bin>
+        </calculation>
+      </column>
+      <column datatype='date' name='[最后一次来电]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[最后一次来访 (组)]' role='dimension' type='ordinal'>
+        <calculation class='categorical-bin' column='[最后一次来访]' new-bin='true'>
+          <bin default-name='false' value='&quot;开盘前3个月&quot;'>
+            <value>#2018-01-04#</value>
+            <value>#2018-01-05#</value>
+            <value>#2018-01-07#</value>
+            <value>#2018-01-08#</value>
+            <value>#2018-01-09#</value>
+            <value>#2018-01-10#</value>
+            <value>#2018-01-11#</value>
+            <value>#2018-01-12#</value>
+            <value>#2018-01-17#</value>
+            <value>#2018-01-18#</value>
+            <value>#2018-01-22#</value>
+            <value>#2018-01-23#</value>
+            <value>#2018-01-24#</value>
+            <value>#2018-01-25#</value>
+            <value>#2018-01-27#</value>
+            <value>#2018-01-28#</value>
+            <value>#2018-01-29#</value>
+            <value>#2018-01-30#</value>
+            <value>#2018-01-31#</value>
+            <value>#2018-02-01#</value>
+            <value>#2018-02-03#</value>
+            <value>#2018-02-04#</value>
+            <value>#2018-02-05#</value>
+            <value>#2018-02-06#</value>
+            <value>#2018-02-07#</value>
+            <value>#2018-02-08#</value>
+            <value>#2018-02-09#</value>
+            <value>#2018-02-10#</value>
+            <value>#2018-02-11#</value>
+            <value>#2018-02-13#</value>
+            <value>#2018-02-14#</value>
+            <value>#2018-02-16#</value>
+            <value>#2018-02-17#</value>
+            <value>#2018-02-18#</value>
+            <value>#2018-02-19#</value>
+            <value>#2018-02-20#</value>
+            <value>#2018-02-21#</value>
+            <value>#2018-02-22#</value>
+            <value>#2018-02-23#</value>
+            <value>#2018-02-24#</value>
+            <value>#2018-02-25#</value>
+            <value>#2018-02-26#</value>
+            <value>#2018-02-27#</value>
+            <value>#2018-02-28#</value>
+            <value>#2018-03-01#</value>
+            <value>#2018-03-04#</value>
+            <value>#2018-03-05#</value>
+            <value>#2018-03-06#</value>
+            <value>#2018-03-07#</value>
+            <value>#2018-03-08#</value>
+            <value>#2018-03-10#</value>
+            <value>#2018-03-12#</value>
+            <value>#2018-03-13#</value>
+            <value>#2018-03-14#</value>
+            <value>#2018-03-15#</value>
+            <value>#2018-03-16#</value>
+            <value>#2018-03-17#</value>
+            <value>#2018-03-18#</value>
+            <value>#2018-03-19#</value>
+            <value>#2018-03-20#</value>
+            <value>#2018-03-21#</value>
+            <value>#2018-03-22#</value>
+            <value>#2018-03-23#</value>
+            <value>#2018-03-24#</value>
+            <value>#2018-03-26#</value>
+            <value>#2018-03-27#</value>
+            <value>#2018-03-28#</value>
+            <value>#2018-03-29#</value>
+            <value>#2018-03-30#</value>
+            <value>#2018-03-31#</value>
+          </bin>
+          <bin default-name='false' value='&quot;开盘后1周&quot;'>
+            <value>#2018-04-23#</value>
+            <value>#2018-04-24#</value>
+            <value>#2018-04-25#</value>
+            <value>#2018-04-26#</value>
+            <value>#2018-04-27#</value>
+            <value>#2018-04-28#</value>
+            <value>#2018-04-30#</value>
+          </bin>
+          <bin default-name='false' value='&quot;开盘后2周&quot;'>
+            <value>#2018-05-01#</value>
+            <value>#2018-05-02#</value>
+            <value>#2018-05-03#</value>
+            <value>#2018-05-04#</value>
+            <value>#2018-05-05#</value>
+            <value>#2018-05-06#</value>
+            <value>#2018-05-10#</value>
+          </bin>
+          <bin default-name='false' value='&quot;开盘日&quot;'>
+            <value>#2018-04-21#</value>
+            <value>#2018-04-22#</value>
+          </bin>
+          <bin default-name='false' value='&quot;开盘日前1月&quot;'>
+            <value>#2018-04-01#</value>
+            <value>#2018-04-02#</value>
+            <value>#2018-04-03#</value>
+            <value>#2018-04-04#</value>
+            <value>#2018-04-05#</value>
+            <value>#2018-04-06#</value>
+            <value>#2018-04-07#</value>
+            <value>#2018-04-08#</value>
+            <value>#2018-04-09#</value>
+            <value>#2018-04-10#</value>
+            <value>#2018-04-11#</value>
+            <value>#2018-04-12#</value>
+            <value>#2018-04-14#</value>
+            <value>#2018-04-15#</value>
+            <value>#2018-04-16#</value>
+            <value>#2018-04-17#</value>
+            <value>#2018-04-18#</value>
+            <value>#2018-04-20#</value>
+          </bin>
+        </calculation>
+      </column>
+      <column datatype='date' name='[最后一次来访]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' datatype-customized='true' name='[来源区域]' role='dimension' type='ordinal'>
+        <aliases>
+          <alias key='0' value='滨江' />
+          <alias key='1' value='富阳' />
+          <alias key='2' value='拱墅' />
+          <alias key='3' value='江干' />
+          <alias key='4' value='上城' />
+          <alias key='5' value='下城' />
+          <alias key='6' value='余杭' />
+          <alias key='7' value='西湖' />
+          <alias key='8' value='省内其他区域' />
+          <alias key='9' value='省外其他区域' />
+        </aliases>
+      </column>
+      <column datatype='integer' datatype-customized='true' name='[来电次数]' role='measure' type='quantitative' />
+      <column datatype='integer' datatype-customized='true' name='[来访次数]' role='measure' type='quantitative' />
+      <column datatype='integer' datatype-customized='true' name='[购房预算]' role='measure' type='quantitative' />
+      <column datatype='integer' datatype-customized='true' name='[车位关注度]' role='measure' type='quantitative' />
+      <column datatype='integer' datatype-customized='true' name='[需求面积]' role='measure' type='quantitative' />
+      <column-instance column='[Forecast Indicator]' derivation='None' forecast-column-base='[Forecast Indicator]' forecast-column-type='forecast-indicator' name='[none:Forecast Indicator:nk]' pivot='key' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.440789' measure-ordering='alphabetic' measure-percentage='0.559211' show-aliased-fields='true' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[最后一次来访 (组)]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;开盘后1周&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;开盘日前1月&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;开盘日&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;开盘前3个月&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;开盘后2周&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;China&quot;' />
+      </semantic-values>
+      <default-sorts>
+        <manual-sort column='[none:Forecast Indicator:nk]' direction='ASC'>
+          <dictionary>
+            <bucket>&quot;实际&quot;</bucket>
+            <bucket>&quot;估计&quot;</bucket>
+          </dictionary>
+        </manual-sort>
+      </default-sorts>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='交通关注度'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='数据集190701-调整成交率' name='federated.0z9r83s1o9fqi910q9i5m0xvzg3x' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0z9r83s1o9fqi910q9i5m0xvzg3x'>
+            <column-instance column='[交通关注度]' derivation='Count' name='[cnt:交通关注度:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[交通关注度]' derivation='None' name='[none:交通关注度:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[是否认购]' derivation='None' name='[none:是否认购:ok]' pivot='key' type='ordinal' />
+            <column datatype='integer' datatype-customized='true' name='[交通关注度]' role='dimension' type='ordinal'>
+              <aliases>
+                <alias key='0' value='一般' />
+                <alias key='1' value='关注' />
+                <alias key='2' value='非常关注' />
+              </aliases>
+            </column>
+            <column datatype='integer' datatype-customized='true' name='[是否认购]' role='dimension' type='ordinal'>
+              <aliases>
+                <alias key='0' value='未认购' />
+                <alias key='1' value='认购' />
+              </aliases>
+            </column>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[none:交通关注度:ok]' value='129' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[cnt:交通关注度:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[none:交通关注度:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[cnt:交通关注度:qk]</rows>
+        <cols>([federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[none:是否认购:ok] / [federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[none:交通关注度:ok])</cols>
+      </table>
+      <simple-id uuid='{F5B1FE42-1FFE-4930-9586-B560FBD9992C}' />
+    </worksheet>
+    <worksheet name='已成交客户来源区域'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='数据集190701-调整成交率' name='federated.0z9r83s1o9fqi910q9i5m0xvzg3x' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0z9r83s1o9fqi910q9i5m0xvzg3x'>
+            <column-instance column='[来源区域]' derivation='Count' name='[cnt:来源区域:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[来源区域]' derivation='Count' forecast-column-base='[cnt:来源区域:qk]' forecast-column-type='forecast-value' name='[fVal:cnt:来源区域:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Forecast Indicator]' derivation='None' forecast-column-base='[Forecast Indicator]' forecast-column-type='forecast-indicator' name='[none:Forecast Indicator:nk]' pivot='key' type='nominal' />
+            <column-instance column='[是否认购]' derivation='None' name='[none:是否认购:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[来源区域]' derivation='None' name='[none:来源区域:ok]' pivot='key' type='ordinal' />
+            <column datatype='integer' datatype-customized='true' name='[是否认购]' role='dimension' type='ordinal'>
+              <aliases>
+                <alias key='0' value='未认购' />
+                <alias key='1' value='认购' />
+              </aliases>
+            </column>
+            <column aggregation='Sum' datatype='integer' datatype-customized='true' name='[来源区域]' role='dimension' type='ordinal'>
+              <aliases>
+                <alias key='0' value='滨江' />
+                <alias key='1' value='富阳' />
+                <alias key='2' value='拱墅' />
+                <alias key='3' value='江干' />
+                <alias key='4' value='上城' />
+                <alias key='5' value='下城' />
+                <alias key='6' value='余杭' />
+                <alias key='7' value='西湖' />
+                <alias key='8' value='省内其他区域' />
+                <alias key='9' value='省外其他区域' />
+              </aliases>
+            </column>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[fVal:cnt:来源区域:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[fVal:cnt:来源区域:qk]' />
+              <color column='[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[fVal:cnt:来源区域:qk]' />
+              <text column='[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[none:是否认购:ok]' />
+              <text column='[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[none:来源区域:ok]' />
+              <lod column='[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[none:Forecast Indicator:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-mode' value='all' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+        <forecast-specification auto-forecast-agg='true' band-confidence-level='95.000000' enabled='true' fill-type='fill-missing' ignore-last='1' model-type='auto-season' range-type='auto' show-prediction-bands='true' />
+      </table>
+      <simple-id uuid='{92DEFBC6-4D2D-4509-915D-5BFC82BF54B8}' />
+    </worksheet>
+    <worksheet name='收入水平影响'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='数据集190701-调整成交率' name='federated.0z9r83s1o9fqi910q9i5m0xvzg3x' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0z9r83s1o9fqi910q9i5m0xvzg3x'>
+            <column-instance column='[收入]' derivation='Count' name='[cnt:收入:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[收入]' derivation='None' name='[none:收入:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[是否认购]' derivation='None' name='[none:是否认购:ok]' pivot='key' type='ordinal' />
+            <column aggregation='Sum' datatype='integer' datatype-customized='true' name='[收入]' role='dimension' type='ordinal'>
+              <aliases>
+                <alias key='0' value='(0,20万]' />
+                <alias key='1' value='（20万，50万]' />
+                <alias key='2' value='（50万，70万]' />
+                <alias key='3' value='(70万，100万]' />
+                <alias key='4' value='(100万，+∞）' />
+              </aliases>
+            </column>
+            <column datatype='integer' datatype-customized='true' name='[是否认购]' role='dimension' type='ordinal'>
+              <aliases>
+                <alias key='0' value='未认购' />
+                <alias key='1' value='认购' />
+              </aliases>
+            </column>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[cnt:收入:qk]' />
+              <color column='[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[cnt:收入:qk]' />
+              <text column='[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[none:是否认购:ok]' />
+              <text column='[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[none:收入:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{8B148055-FFBE-4C9C-83EB-0888E60A59DC}' />
+    </worksheet>
+    <worksheet name='教育水平影响'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='数据集190701-调整成交率' name='federated.0z9r83s1o9fqi910q9i5m0xvzg3x' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0z9r83s1o9fqi910q9i5m0xvzg3x'>
+            <column-instance column='[教育水平]' derivation='Count' name='[cnt:教育水平:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[教育水平]' derivation='None' name='[none:教育水平:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[是否认购]' derivation='None' name='[none:是否认购:ok]' pivot='key' type='ordinal' />
+            <column aggregation='Sum' datatype='integer' datatype-customized='true' name='[教育水平]' role='dimension' type='ordinal'>
+              <aliases>
+                <alias key='0' value='高中及以下' />
+                <alias key='1' value='大学' />
+                <alias key='2' value='研究生及以上' />
+              </aliases>
+            </column>
+            <column datatype='integer' datatype-customized='true' name='[是否认购]' role='dimension' type='ordinal'>
+              <aliases>
+                <alias key='0' value='未认购' />
+                <alias key='1' value='认购' />
+              </aliases>
+            </column>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[none:教育水平:ok]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[cnt:教育水平:qk]</rows>
+        <cols>([federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[none:是否认购:ok] / [federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[none:教育水平:ok])</cols>
+      </table>
+      <simple-id uuid='{AF635627-ED09-4321-B884-661DBD062D21}' />
+    </worksheet>
+    <worksheet name='最后来电'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='数据集190701-调整成交率' name='federated.0z9r83s1o9fqi910q9i5m0xvzg3x' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0z9r83s1o9fqi910q9i5m0xvzg3x'>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column-instance column='[Number of Records]' derivation='Count' name='[cnt:Number of Records:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[是否认购]' derivation='None' name='[none:是否认购:ok]' pivot='key' type='ordinal' />
+            <column datatype='integer' datatype-customized='true' name='[是否认购]' role='dimension' type='ordinal'>
+              <aliases>
+                <alias key='0' value='未认购' />
+                <alias key='1' value='认购' />
+              </aliases>
+            </column>
+            <column datatype='string' name='[最后一次来电 (组)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[最后一次来电]' new-bin='true'>
+                <bin default-name='false' value='&quot;开盘前1-3个月&quot;'>
+                  <value>#2018-01-01#</value>
+                  <value>#2018-01-02#</value>
+                  <value>#2018-01-03#</value>
+                  <value>#2018-01-04#</value>
+                  <value>#2018-01-05#</value>
+                  <value>#2018-01-07#</value>
+                  <value>#2018-01-08#</value>
+                  <value>#2018-01-09#</value>
+                  <value>#2018-01-10#</value>
+                  <value>#2018-01-11#</value>
+                  <value>#2018-01-12#</value>
+                  <value>#2018-01-13#</value>
+                  <value>#2018-01-14#</value>
+                  <value>#2018-01-15#</value>
+                  <value>#2018-01-16#</value>
+                  <value>#2018-01-17#</value>
+                  <value>#2018-01-18#</value>
+                  <value>#2018-01-19#</value>
+                  <value>#2018-01-20#</value>
+                  <value>#2018-01-21#</value>
+                  <value>#2018-01-22#</value>
+                  <value>#2018-01-23#</value>
+                  <value>#2018-01-24#</value>
+                  <value>#2018-01-25#</value>
+                  <value>#2018-01-26#</value>
+                  <value>#2018-01-27#</value>
+                  <value>#2018-01-28#</value>
+                  <value>#2018-01-29#</value>
+                  <value>#2018-01-30#</value>
+                  <value>#2018-02-01#</value>
+                  <value>#2018-02-02#</value>
+                  <value>#2018-02-03#</value>
+                  <value>#2018-02-06#</value>
+                  <value>#2018-02-07#</value>
+                  <value>#2018-02-08#</value>
+                  <value>#2018-02-09#</value>
+                  <value>#2018-02-10#</value>
+                  <value>#2018-02-11#</value>
+                  <value>#2018-02-12#</value>
+                  <value>#2018-02-13#</value>
+                  <value>#2018-02-14#</value>
+                  <value>#2018-02-15#</value>
+                  <value>#2018-02-16#</value>
+                  <value>#2018-02-18#</value>
+                  <value>#2018-02-19#</value>
+                  <value>#2018-02-20#</value>
+                  <value>#2018-02-21#</value>
+                  <value>#2018-02-22#</value>
+                  <value>#2018-02-23#</value>
+                  <value>#2018-02-24#</value>
+                  <value>#2018-02-25#</value>
+                  <value>#2018-02-26#</value>
+                  <value>#2018-02-28#</value>
+                  <value>#2018-03-01#</value>
+                  <value>#2018-03-02#</value>
+                  <value>#2018-03-03#</value>
+                  <value>#2018-03-04#</value>
+                  <value>#2018-03-05#</value>
+                  <value>#2018-03-06#</value>
+                  <value>#2018-03-07#</value>
+                  <value>#2018-03-08#</value>
+                  <value>#2018-03-09#</value>
+                  <value>#2018-03-10#</value>
+                  <value>#2018-03-11#</value>
+                  <value>#2018-03-12#</value>
+                  <value>#2018-03-13#</value>
+                  <value>#2018-03-14#</value>
+                  <value>#2018-03-15#</value>
+                  <value>#2018-03-16#</value>
+                  <value>#2018-03-17#</value>
+                  <value>#2018-03-18#</value>
+                  <value>#2018-03-19#</value>
+                  <value>#2018-03-20#</value>
+                  <value>#2018-03-22#</value>
+                  <value>#2018-03-23#</value>
+                  <value>#2018-03-24#</value>
+                  <value>#2018-03-25#</value>
+                  <value>#2018-03-26#</value>
+                  <value>#2018-03-27#</value>
+                  <value>#2018-03-28#</value>
+                  <value>#2018-03-29#</value>
+                  <value>#2018-03-30#</value>
+                  <value>#2018-03-31#</value>
+                </bin>
+                <bin default-name='false' value='&quot;开盘前1个月&quot;'>
+                  <value>#2018-04-01#</value>
+                  <value>#2018-04-02#</value>
+                  <value>#2018-04-03#</value>
+                  <value>#2018-04-04#</value>
+                  <value>#2018-04-05#</value>
+                  <value>#2018-04-06#</value>
+                  <value>#2018-04-07#</value>
+                  <value>#2018-04-08#</value>
+                  <value>#2018-04-09#</value>
+                  <value>#2018-04-10#</value>
+                  <value>#2018-04-11#</value>
+                  <value>#2018-04-12#</value>
+                  <value>#2018-04-13#</value>
+                  <value>#2018-04-14#</value>
+                  <value>#2018-04-15#</value>
+                  <value>#2018-04-16#</value>
+                  <value>#2018-04-17#</value>
+                  <value>#2018-04-18#</value>
+                  <value>#2018-04-19#</value>
+                  <value>#2018-04-20#</value>
+                </bin>
+                <bin default-name='false' value='&quot;开盘后1周&quot;'>
+                  <value>#2018-04-23#</value>
+                  <value>#2018-04-24#</value>
+                  <value>#2018-04-25#</value>
+                  <value>#2018-04-26#</value>
+                  <value>#2018-04-27#</value>
+                  <value>#2018-04-28#</value>
+                  <value>#2018-04-29#</value>
+                  <value>#2018-04-30#</value>
+                </bin>
+                <bin default-name='false' value='&quot;开盘日&quot;'>
+                  <value>#2018-04-21#</value>
+                  <value>#2018-04-22#</value>
+                </bin>
+              </calculation>
+            </column>
+            <column datatype='date' name='[最后一次来电]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[最后一次来电 (组)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[cnt:Number of Records:qk]</rows>
+        <cols>([federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[none:是否认购:ok] / [federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[最后一次来电 (组)])</cols>
+      </table>
+      <simple-id uuid='{F67F9179-C392-4147-91E5-1438A2AD679C}' />
+    </worksheet>
+    <worksheet name='最后来访'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='数据集190701-调整成交率' name='federated.0z9r83s1o9fqi910q9i5m0xvzg3x' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0z9r83s1o9fqi910q9i5m0xvzg3x'>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column-instance column='[是否认购]' derivation='None' name='[none:是否认购:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+            <column datatype='integer' datatype-customized='true' name='[是否认购]' role='dimension' type='ordinal'>
+              <aliases>
+                <alias key='0' value='未认购' />
+                <alias key='1' value='认购' />
+              </aliases>
+            </column>
+            <column datatype='string' name='[最后一次来访 (组)]' role='dimension' type='ordinal'>
+              <calculation class='categorical-bin' column='[最后一次来访]' new-bin='true'>
+                <bin default-name='false' value='&quot;开盘前3个月&quot;'>
+                  <value>#2018-01-04#</value>
+                  <value>#2018-01-05#</value>
+                  <value>#2018-01-07#</value>
+                  <value>#2018-01-08#</value>
+                  <value>#2018-01-09#</value>
+                  <value>#2018-01-10#</value>
+                  <value>#2018-01-11#</value>
+                  <value>#2018-01-12#</value>
+                  <value>#2018-01-17#</value>
+                  <value>#2018-01-18#</value>
+                  <value>#2018-01-22#</value>
+                  <value>#2018-01-23#</value>
+                  <value>#2018-01-24#</value>
+                  <value>#2018-01-25#</value>
+                  <value>#2018-01-27#</value>
+                  <value>#2018-01-28#</value>
+                  <value>#2018-01-29#</value>
+                  <value>#2018-01-30#</value>
+                  <value>#2018-01-31#</value>
+                  <value>#2018-02-01#</value>
+                  <value>#2018-02-03#</value>
+                  <value>#2018-02-04#</value>
+                  <value>#2018-02-05#</value>
+                  <value>#2018-02-06#</value>
+                  <value>#2018-02-07#</value>
+                  <value>#2018-02-08#</value>
+                  <value>#2018-02-09#</value>
+                  <value>#2018-02-10#</value>
+                  <value>#2018-02-11#</value>
+                  <value>#2018-02-13#</value>
+                  <value>#2018-02-14#</value>
+                  <value>#2018-02-16#</value>
+                  <value>#2018-02-17#</value>
+                  <value>#2018-02-18#</value>
+                  <value>#2018-02-19#</value>
+                  <value>#2018-02-20#</value>
+                  <value>#2018-02-21#</value>
+                  <value>#2018-02-22#</value>
+                  <value>#2018-02-23#</value>
+                  <value>#2018-02-24#</value>
+                  <value>#2018-02-25#</value>
+                  <value>#2018-02-26#</value>
+                  <value>#2018-02-27#</value>
+                  <value>#2018-02-28#</value>
+                  <value>#2018-03-01#</value>
+                  <value>#2018-03-04#</value>
+                  <value>#2018-03-05#</value>
+                  <value>#2018-03-06#</value>
+                  <value>#2018-03-07#</value>
+                  <value>#2018-03-08#</value>
+                  <value>#2018-03-10#</value>
+                  <value>#2018-03-12#</value>
+                  <value>#2018-03-13#</value>
+                  <value>#2018-03-14#</value>
+                  <value>#2018-03-15#</value>
+                  <value>#2018-03-16#</value>
+                  <value>#2018-03-17#</value>
+                  <value>#2018-03-18#</value>
+                  <value>#2018-03-19#</value>
+                  <value>#2018-03-20#</value>
+                  <value>#2018-03-21#</value>
+                  <value>#2018-03-22#</value>
+                  <value>#2018-03-23#</value>
+                  <value>#2018-03-24#</value>
+                  <value>#2018-03-26#</value>
+                  <value>#2018-03-27#</value>
+                  <value>#2018-03-28#</value>
+                  <value>#2018-03-29#</value>
+                  <value>#2018-03-30#</value>
+                  <value>#2018-03-31#</value>
+                </bin>
+                <bin default-name='false' value='&quot;开盘后1周&quot;'>
+                  <value>#2018-04-23#</value>
+                  <value>#2018-04-24#</value>
+                  <value>#2018-04-25#</value>
+                  <value>#2018-04-26#</value>
+                  <value>#2018-04-27#</value>
+                  <value>#2018-04-28#</value>
+                  <value>#2018-04-30#</value>
+                </bin>
+                <bin default-name='false' value='&quot;开盘后2周&quot;'>
+                  <value>#2018-05-01#</value>
+                  <value>#2018-05-02#</value>
+                  <value>#2018-05-03#</value>
+                  <value>#2018-05-04#</value>
+                  <value>#2018-05-05#</value>
+                  <value>#2018-05-06#</value>
+                  <value>#2018-05-10#</value>
+                </bin>
+                <bin default-name='false' value='&quot;开盘日&quot;'>
+                  <value>#2018-04-21#</value>
+                  <value>#2018-04-22#</value>
+                </bin>
+                <bin default-name='false' value='&quot;开盘日前1月&quot;'>
+                  <value>#2018-04-01#</value>
+                  <value>#2018-04-02#</value>
+                  <value>#2018-04-03#</value>
+                  <value>#2018-04-04#</value>
+                  <value>#2018-04-05#</value>
+                  <value>#2018-04-06#</value>
+                  <value>#2018-04-07#</value>
+                  <value>#2018-04-08#</value>
+                  <value>#2018-04-09#</value>
+                  <value>#2018-04-10#</value>
+                  <value>#2018-04-11#</value>
+                  <value>#2018-04-12#</value>
+                  <value>#2018-04-14#</value>
+                  <value>#2018-04-15#</value>
+                  <value>#2018-04-16#</value>
+                  <value>#2018-04-17#</value>
+                  <value>#2018-04-18#</value>
+                  <value>#2018-04-20#</value>
+                </bin>
+              </calculation>
+            </column>
+            <column datatype='date' name='[最后一次来访]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[none:是否认购:ok]'>
+            <groupfilter function='level-members' level='[none:是否认购:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[none:是否认购:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[最后一次来访 (组)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[sum:Number of Records:qk]</rows>
+        <cols>([federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[none:是否认购:ok] / [federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[最后一次来访 (组)])</cols>
+      </table>
+      <simple-id uuid='{90163528-4123-4F44-AD80-68D628E02816}' />
+    </worksheet>
+    <worksheet name='老带新'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='数据集190701-调整成交率' name='federated.0z9r83s1o9fqi910q9i5m0xvzg3x' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0z9r83s1o9fqi910q9i5m0xvzg3x'>
+            <column-instance column='[是否老带新]' derivation='Count' name='[cnt:是否老带新:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[是否老带新]' derivation='None' name='[none:是否老带新:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[是否认购]' derivation='None' name='[none:是否认购:ok]' pivot='key' type='ordinal' />
+            <column aggregation='Sum' datatype='integer' datatype-customized='true' name='[是否老带新]' role='dimension' type='ordinal'>
+              <aliases>
+                <alias key='0' value='直访' />
+                <alias key='1' value='老带新' />
+              </aliases>
+            </column>
+            <column datatype='integer' datatype-customized='true' name='[是否认购]' role='dimension' type='ordinal'>
+              <aliases>
+                <alias key='0' value='未认购' />
+                <alias key='1' value='认购' />
+              </aliases>
+            </column>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[none:是否认购:ok]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[cnt:是否老带新:qk]</rows>
+        <cols>([federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[none:是否认购:ok] / [federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[none:是否老带新:ok])</cols>
+      </table>
+      <simple-id uuid='{613380DE-8300-40C9-82AB-3AEF7E3E937E}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='交通关注度'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[none:交通关注度:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[Parameters].[是否认购 参数 2]</field>
+            <field>[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[:Measure Names]</field>
+            <field>[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[cnt:交通关注度:ok]</field>
+            <field>[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[none:交通关注度:ok]</field>
+            <field>[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[none:年龄:qk]</field>
+            <field>[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[sum:交通关注度:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{CEC3D919-7042-4FDB-AA7B-65948C7EC0AA}' />
+    </window>
+    <window class='worksheet' name='教育水平影响'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[none:教育水平:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[cnt:交通关注度:ok]</field>
+            <field>[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[max:交通关注度:ok]</field>
+            <field>[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[none:教育水平:ok]</field>
+            <field>[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[sum:交通关注度:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{7ADEB191-3B46-44E8-8AB3-DB6775F0B25C}' />
+    </window>
+    <window class='worksheet' name='收入水平影响'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[cnt:收入:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[cnt:收入:qk]</field>
+            <field>[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[none:收入:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{35A5E157-309F-4FCB-A985-83DC934D3E4B}' />
+    </window>
+    <window class='worksheet' name='已成交客户来源区域'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[fVal:cnt:来源区域:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <selection-collection>
+          <tuple-selection>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[cnt:来源区域:qk]</field>
+                  <field>[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[none:是否认购:ok]</field>
+                  <field>[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[none:来源区域:ok]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>58</value>
+                <value>1</value>
+                <value>6</value>
+              </tuple>
+            </tuple-reference>
+          </tuple-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[fVal:cnt:来源区域:qk]</field>
+            <field>[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[none:是否认购:ok]</field>
+            <field>[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[none:来源区域:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{14D66BB7-C2EB-4F88-BC0F-4BDBEC22F436}' />
+    </window>
+    <window class='worksheet' name='老带新'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[none:是否认购:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[none:是否老带新:ok]</field>
+            <field>[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[none:是否认购:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{76FD5410-1119-4802-ABDE-451C12C31AB5}' />
+    </window>
+    <window class='worksheet' maximized='true' name='最后来电'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[最后一次来电 (组)]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[none:是否认购:ok]</field>
+            <field>[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[yr:最后一次来电:ok]</field>
+            <field>[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[最后一次来电 (组)]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{5D5745CF-A4D0-42C9-A44A-D1EA6956780A}' />
+    </window>
+    <window class='worksheet' name='最后来访'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[none:是否认购:ok]' type='filter' />
+            <card pane-specification-id='0' param='[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[最后一次来访 (组)]' type='color' />
+            <card param='[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[none:是否认购:ok]' type='highlighter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[:Measure Names]</field>
+            <field>[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[none:是否认购:ok]</field>
+            <field>[federated.0z9r83s1o9fqi910q9i5m0xvzg3x].[最后一次来访 (组)]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{ED4B4B9D-AC8A-4C3A-8FD3-D75C82115EF4}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='交通关注度' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAALKUlEQVR4nO3dS3PjWAEF4CPJ72f8zqOT7plMT6aY6tkwUFNDFfMHYMeGFRS/gWILS34A
+      VcCKJbOFNRsWwHaKqWGgO51OOu04sR0/JFuSZUmXxdBNJ45TLXfk1z3frsst+fpxYl3p+FoR
+      QggQSUpd9ACIFokBIKlFFj0A+oZnm2gaA3iOj63NMp49e4ZKpQpVuLAcD9FEBmNLh95tI1u+
+      h3IxD00VePLkCA/f24fRa2M4VpBKRDFyPAz1Lkqb92DpXdgjG+VqDcPBEGPHRi6bxdC24Yx9
+      FIpFZJLxRT/8heEnwJLwPA+2PYIiBMyBDg8aGvU6nPEIzmiA/mCMxtkxTk4u0G+dwRYKzM45
+      /GgWgMBlz0S/eQZfi+DkySEG/Q6MkYMYPLiRGExjAMd1oesGIsLG8/o5LlptqKrcbwG5H/0S
+      MYw+mudNtDqXgO8jny9AqBpU18ZZ14VvX6JW28E7B/swBhZiGnBSb2LvXhWAgnhMwHIV2AMD
+      nhBoNi9gGAP0Ry4iYwuOZcDyNKQzKeimwE6tBN+xMXa9RT/0hVJ4Fmh1NRoNbG1tLXoYK+2t
+      PwEMw7iLcdAMXr75+RrMTr5JsBCw7QF6fRuVagm9Xh/Cd5FPRXHWc5BQfRRKZcSi8j01c+W7
+      uOwPITwHiVgUA9sBfB+lUgXRqDa3YUg3B/B9FxeNMwxHDhzHBoRAp9uH51g4PDqGM3bQ6fEv
+      ath8MQZ8gU53ANs2cXT4BL5r4lJ35joO6QIAASQzOaiuA9cHGvU6cukUhn4cBw92oHhj+Nr8
+      /gLJSlUVvDg5RTYdhxZLYG/vXbj2CJHEfD9533oSbBgGstnsXY2HZsDXYHZvHTchBCdhC2aa
+      5qKHsLLeOgCKovCvzxLgazAb+eYARK9hAEhqDABJLVAAXMdCvdGEPdTR6vTDGhPR3ASaBDfq
+      L3B21oK+vY0EBEobWfi+D9d1wxofvQHP8/gazChQAMqVKtpdE1HfwWAkoKoqVFVFJMLawCJp
+      msbXYEa8ELYG+BrMjpNgkhoDQFJbuwNHYesY/PbTUO8j9ZM/Qyu+G+p90HzwE4CkxgCQ1BgA
+      khoDQFILFABvbOP5iwYG/UscnzbCGhPR3AQ6C9S6uEDrvAvDiKBc2YHv+8tXhfDCX+fG9zyI
+      JXrMrELMLlAAPM+F7zrIbVRxenqKWrmwdFUI4Yb/fV5V06At0WNmFWJ2gZ61nfv72Lm/DwDY
+      3doOZUBE88RJMEmNASCpMQAkNQaApMYAkNQYAJLanZ88NswRjs/D+8K8pir41oNKaPsnudx5
+      AA7rHfzqD3+9692+koxH8PkvfxTa/kkugQJw9vwIL857KJQysGyBjz48CGtcRHMRKACKqiGm
+      CrhqDNmUuLEL5Hv+nQ/yCoHbey/sAlEAgQJQqVbhiChqxQwMBzcui6JqIc+rFdzae2EXiIII
+      9KxFYknc300CABLpUMZDNFc8DUpSYwBIagwASY0BIKkxACQ1njujteO223CbzTf6vwwArZ3h
+      3/6O/h8/f6P/GygAereNL796jEq1iFgyjwe7WzMNkGhZBApAdqOIvfv3EVFc1Fst7O3UWIVY
+      AqxCXCX8N38PBjsE8l1UNrfgmj3sJnKsQiwJViGuUtQ3fw8GK8NpMSQ0APkiMkFHRbSEeBqU
+      pMYAkNQYAJIaA0BSYwBIagwASY0BIKkFrkI8fvoc1WoRliNw8N47YY2LaC4CViFKqFYtKKqC
+      VJyrQiwLViGuCq8K4Y2wUazAs3rQR4JViCXBKsRV4VUhIgnkMgAymygEHRXREuIkmKTGAJDU
+      GACSGmdOdOe89iGE1Q1t/2p2E+rG7p3siwGgO+f84zdwD/8S2v6j3/4pEt//+Z3si4dAJDUG
+      gKQW6BDI6LRQ7wyRiwk4SoKrQtDKCxSAy34PwrIwim7Ask1WIabo/e738Dqd0O4/88MfIP7o
+      0at/L1sVQggR+v5ve7yhVSG2a5s4ci6QSkQgoLEKMYVz+BTu+Xlo95/+7LMrz8GyVSHGihLq
+      /hVFufXxhlaFiKWy+OAgG2QToqXGSTBJjQEgqTEAJDUGgKS2PKcO6M787Nd/wqVuhbb/X/z4
+      U3zv0V5o+58nfgKQ1BgAktpMVYh8AtBtrgpBq2+mKoQeKXJViNsuxYd9/9ee83lXIa7f/3Vr
+      X4UopSMYclWIqbeHWwTAxHM+7yrE9fu/TooqRDnIhkRLipNgkhoDQFJjAEhqDABJjQEgqTEA
+      JDUGgKQW6DqA1e/guNVHORvH0FG4KgStvEABGAyHgOdhOBzC15KsQkzBKsSaViGS6TT8Sx2x
+      fAF93WIVYgpWIda0CpHJF/HhoyIAYHszyJZEy4mTYJIaA0BSYwBIagwASY0BIKlNBEAIgcdf
+      f4Xzs1MYo5DP6RMt2EQALl6coNnT8e/HR4gqDACtt4nrAPFYBKZpIZWI4/oFvZdViGo+CWMk
+      8OAeqxC02iYCUKju4JOPs8jkchNXNF9WIQYjF5rgqhDTsAqxwlWITusc/3l6jEwmgwf7B8im
+      Yq9ue1mFQDIC0wGrEFOwCrHCVYhYMoPtrSr6QweZ1978wNUqBNE6mAhAJptFMpXCfS38v6RE
+      izYRAKfTwT8bL7CzkYaS2MFmKbGIcRHNxcTBkmkYUD0fh/U2srnYTdsQrY2JT4BcpYjoyMHD
+      2jYU1wGi/ASg9TURACWZQi0WR0zT4CX55qf1NnEI1G1f4qxxisZFE37YJ7SJFmwiALF4DPfe
+      /wDRiABMZxFjIpqbiUMgd+zCumjDSSjwrudDCByfnCCbjMHgqhC0BiYCoKoqTFOHGa2gkL56
+      s95toTewoPpjrgrBKsTU21e6CpHbKCD23kP4mRRMa4x0MvrqNs8XcEwDWmEHw6HNKsQUrEKs
+      cBWieVHHF198CS0Zw27tId7/4P8/h1ko1/Ddcg0AsBNkxERLaiIAqVQW1c0aNNVHvlxaxJiI
+      5mZyDgAf1doWRuYA2VxyEWMimpuJgyXNGuNpo458Ooq2PlrEmIjmZiIAlmVhc3sbz07b2Cry
+      E4DW28QhUL5Whet62P+4hpHtIJpkIY7W1w1doOSrn0BNJvmdAFpvXBeIpBbs6sn/qhD5dAJ9
+      rgpBayBQAF5WIbRIhKtCsAox9faVrkLc5mUVwk0n4HgKqxBTsAqxwlWI27xehSBaB5wEk9QY
+      AJIaA0BSYwBIagwASY0BIKkxACS1QAFwrAGOT88w6F/i+LQR1piI5ibw5cNOswVzoKFU2WEV
+      YgpWIda0CmHbNryxjVxhF6enp6iVC6xC3IBViDWtQuQKZXznk2++LXBvczvIpkRLiZNgkhoD
+      QFJjAEhqDABJjQEgqTEAJDUGgKQ2UxXCHupodfphjYlobmaqQri+A80XKG1kWYW4AasQa16F
+      cJ0krLHgqhBTsAohQRWCaB1wEkxSYwBIagwASY0BIKkxACQ1BoCkxgCQ1BgAklqgC2FDo4uv
+      /3WEbDGNeCKPB7v8hRhabYECIASwu/8OfNtAvdXC3k6NXaAbsAu0pl0gCIF+p4NqtYjdRI5d
+      oCnYBVrTLlAmX8T7+WKQTYiWGifBJDUGgKTGAJDUGACSGgNAUmMASGoMAEltpipErpyFbQt8
+      9OFBWOMimouZqhDWUEc0JfgLMVOwCrHmVYjt7SqsMViFmIJVCAmqEJkgGxItKU6CSWoMAEmN
+      ASCpMQAkNQaApMYAkNQYAJJasN8HGOq46AwQFSM4SoKrQtDKCxSARDqHuD6E4mswhyarEFOw
+      CrGmVYih3kWrfYlSqYhEXGMVYgpWIda0CpHOFfDoUSHIJkRLjZNgkhoDQFJjAEhqDABJ7b9P
+      22SQdS6XpwAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='已成交客户来源区域' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='收入水平影响' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAFwUlEQVR4nO3ay29UVQDH8d/ceXem0zeUFnmER0QlEcQoxmjUnboz7nXjP+DWpYn/hxtj
+      XBk3JOgCIkqIPDVAbSmlL0of0Jk+ZjqPe11UTEloizxa0t/3s7lpc9uck9xvzzlzG4uiKBJg
+      KtjsAQCbiQBgLbHyi+J8WdeGJjZrLMBT8cq+HtUaofpv31333gcCuHpzQl98890zGxiwEb7/
+      +nNNlav68tuT697LFgjW1gygoyUnScplUirkMorFpLbmrHq7WhSLbcj4gCfWlE6qkE0rJqkt
+      l9GOtrzuP76J1X5ob0+Hjh/eq4t9o8o3pZTLpHXmyqA+ef+IWvJZnTrfrz+uD2/MDIAncKi3
+      U/lMSmf6RvTp8ZeUTAT6rW9UF29OrL4CRFGk7e0FhVGojkJObYUm7dvZqVqtrtvTRe3c3rqR
+      cwAeW2dzVm35jPZ0tapSq2uquKie9mZJa6wAk3fn9MMvFzS3uKTyUk3F+Ypa8xmdOHtNYRip
+      OZfesAkAT+La2IxmF8pqzWV14tINhWGofCYlaY0AKtW6RidnJS1/PLryKklTs/OSpGQirnqj
+      Id4n43k1PF2UJJXK1f++Nz23/CyvGsA7R/YrCGKKokinLgzo3aP7lUom1Nac1amLN9Tb1aKx
+      qVl1dxS0WK6qb3jyGU8DeHwd+aw6C01qaUqr0JRWIZvWX8OTq58BwjCSouVrGEWqVOtqNEKd
+      vz6ijkKTtrXl9eqBnRoanxF//PG8272tRSMzJTXCSNOlRfXfvqu2fHb1AOLxmMani5opLejY
+      oV1KJeMaGJ3Sru52TRcXdKFvVNV6Q8nEqosI8Ny4MjSp7tacEvFApXJVrbmMhqeLq2+Bzl29
+      pYUVe6b7hla8Xp6YKam3q0XDE+u/cgY2Uz0MNXhnVoN3ls+1g3fuSVrjDPCwh/9hxqaKT2F4
+      wObgXyFgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBg
+      jQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBg
+      jQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBg
+      jQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBg
+      jQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBg
+      jQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBg
+      jQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBg
+      jQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBg
+      jQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgjQBgLbHZAwCe
+      hYO72vXVZ2+vex8BYEsKY5GW4o1172MLBGsEgC1v5O9+jfQPKAxD9V+6rHMnf9bi/LwktkDY
+      4qIo0txsUbNTU+ro7tbpH39SrtCsIIjr2AfvEQC2tlgspunxMaUyWQ1cvqJDrx9TEMRUundP
+      EisADLz10YeKx+NqNJYPxUEQV71WlUQAMJBIJhVFkeq1mhZKJSVTKS2VK2rt6iQAeLh1vU+p
+      TFqXTv+qF187qvGbQ2rt7OBTIHgIgkDVypJ27NmtP38/q2qloiAeZwWAhxcOHlC9WlVnT49e
+      fvMNVcsVxRMEABOxWEzJdFrJdFqSlPr3yhYI1ggA1ggA1ggA1h44BHe15/Xxe4c3ayz4H5JB
+      oEYUbvYwNlziEebdUsg+8u/7B8NyS8iOxW/GAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='教育水平影响' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='最后来电' width='192'>
+      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
+      SUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='最后来访' width='192'>
+      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
+      A26uukFc+WQAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='老带新' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAV7UlEQVR4nO3dWXNbaXrY8f97Dg52cAMpbhIXUdTeUpPaelVv47HLnnJcmYpjp1L+CL7M
+      TS5zke+RqlxkqXHGjjNOd0+6e3p6Ge0SRUqiRHHfSYAEcLCc7c0FuyVS3eXyTDdASef53QFc
+      8BA8f+AcLC+U1lojRAgppZSx30MIsZ8kABFqEoAINQlAhJoEIEJNAhChJgGIUIvs9wAvg+Lc
+      A9YTnbRZmqWxO1inLzDcmkT7LuVKlUBDrVyEaBrLz3Hzbo5Ll0eJ1GzmVtbp6+/HCPJc+3KO
+      s2+9StyAWrHA6vYWGeWy4CVJrk/j9Z7iWHfz984QVNf4h/91g3f/6k94+h0ei49msbJtRPGZ
+      vD/JoWMjdLcl8D2HaqVGQEClaBNJZ6C4yq2FCu9cPI2pFAAby3eZWshw4fwhXMcnGrNAa4Kg
+      yI3PxjnYpVlK9lBedThzqpd0MolCszxzDy/eTUdzAtMycCo22sqQSVqohvxX/mXkHuBHUJoZ
+      Y75mYVkG+YJDzNw5XymTRCpNwt/ko1/9HXfmKqTa+nn33VESBliWz73rY+QqDlrbrK2Un/xH
+      KhubzKwt4ea2WN7cYD6/hRUEFJdnWCx635lha2Gaea3Ym4fH7PgkZTOCFTGwqyUUO8MZpkUi
+      lYLCEh/9z//BI9ukqXuI9y+9gqkUOvCplMts2XlqlRqPrnzIf//wOj6gtY9T1VQdG1W12a4W
+      WVjZYH52lqrn45XXWN2E1fu/Zez+GF/desT0xDiz60Wet2ddJYAfgWHFiaiAIAiIRKOYxje3
+      cUpTXF/kysQig8N9JA2P65/8E1cn5nF1gOdHGH39PK1xC+1vs7ZUxA12/+Z5Pv10GrdqE401
+      k25O4MyPM/U9AczNTjEweOyZcxXReBQV+ASBxrJiGN/Opj22Nha5O5VjaPAAhr/NFx9/zO3p
+      NbQO8HyXQINhmBgqYHFlm/6DbWxuFtFaoUzNoeHjJHtOcKqrm/MjQ/QfOoSlNJ6OEQm2iWSH
+      iFdnmMsZnDg3QlfC5Hl73YEE8IMEVO0S1qEzDKUVSpkMnBym9PgOd6bWqVVKFEsup8+/zuGD
+      PbS1Zhm9dI7C3a+YLWu80iZjj2fxAwWlbXRXiqC8ewvxqdZ8HLeC4UO+WEFpQD27E1FmbmqD
+      gaHeXaP5lG2H7hPHaDZNlGFxZGiYzYe/ZWKpTK20Rb6kGH3rTfp7D9HW1s3FC8M8+OoqpSDA
+      9zWGoWjOdFJdG0f1nONMf4rtQpXC+mNufD2BG49Syy0zvw3xwjQffnWT7aqPacXIpJsJIlVM
+      lcCiwu1bY2ysFwl4vkgAP4jCilssPnxEEC/w0YcTNGebSDf1MNSXJZpoor0zxfTdSaKtR+hq
+      chm/N07PhZ9wOGkQi1loHVAtF5gb26B7uJ1cKQ+AmUjQEvg0DQ9zMNtC1XPYeHyHiXmTbNve
+      AJyFa8zERhlqt3aNpohZHo8fL2PZM3x4e4GWpjiJzpMc6UwQy7TT31rg5sQaqaFXaPeLPBwb
+      45Wf/BFpwyQWi+GsjfPR5xO0DJ0k7q6Rr6U5OthBU/YQoz1F7uYStKkqtVSWZl2jb/QN2tMx
+      IvYiM1uKqPZp7eokkbJY33TpH+zEep4OAJAAfiAF9gqPN4pU7SquF6CUQcSyME2FUgrPrZDL
+      l0mmM6TTKSp2nqqrMZQCNNWVSW6PTzLhd/Pe0TgPxh5juz6pjiyttXYOnO3mUEcHvX0DHBro
+      R1dszN170trl4Y1H9I8eJbF741IGtfw2qxvL2DUHz9coZWBZFqaxM5t2NlgrGKQzGdKpFNXt
+      BapBFLwac48mWFhbYXVLEzEC2joPEjd9AsC04sQtE6UUCqjaW+S2a0SjEcBn7tECfkSjgyq3
+      vpii/VCmof+V34cE8ENoh5n5EqOXL2OtLeKpLW797muu3hljenHnllwp0J5LuVymXC4TYBKJ
+      7ByIajNOPNFGMhHhwsURkpkBTh3I89tb89hby+Q6TvNaZ4QH99foO9ZHxvDIZZrpNZ4+eOdX
+      tri2ZnJ+YO/hr3ZLLOQLvP7+TyksL0FxhatXrnHnzk3mNsrf7IsbBF716WwqjhUBZcXpHz7N
+      qZNHaFGaWtVma3OZL375Cx4Wv9mJaTvFub4YJbtILGpSyfQznAHt1oj2DdPi57GSvfSNjjDS
+      2YppGt/dc3sOKHk59A+gfSoVl1gijoGmWt4mn9vGdjUt7V20N8XxfYdK2SeVSaCAil1AWSni
+      URPQuJUyXiRBwtq5LQoCD9fVGMojUDGilkHgeRiRCH6tTKHi09qcRn2zNeXnrvOLz1b467/+
+      U5IRtWs0h4qrSMQt0D7V4jabWwVqHmS7emlOWOCVKDhxmlM7QVWKeVSylfg3j2IR1FhdWsc3
+      TRQat+bS0tNHU/Tp5bilPLVYK+lv9r6+3ZxqVRtUBFSEWExRLFRIp1NPD8KfA0opJQG84Aor
+      k8zZWU4OZeXu/Pf0QgVQqVRIJBL7PYZ4ibxQb4hZWVnZ7xHES+iFCUCIepAA/hlaBziOQ7Bn
+      L1ET+P6T83zPxfOCPV/zgwDfdfF1QK3qPHdP/tRTEAT4foAGtPZwHO/Jg7Y6CPB9H9/z8AIf
+      t+bgB/u7By4B/HMcm1u3b1N09v6T7NXH3J3dAGBpfoKZ+a1vvuKz9Pgxm0WbxVvXWaqs8eXn
+      4zgNHns/ufYmt+9NobWmVp3j5vWlJzcA25tLzC9tsDn9iKm1ZW5fvU6u7O7rvBLA99h5dtam
+      XC7jBz6VrTVu3H2ErzWgSGdT2LkyALVKGXdXH/ZWAbtaoLBZxt4uEutuxrdtZsfvkv/uS3he
+      OtFEHLfmogMIKja25smrP51KmYq9yeamg1Mto2MWZuCyMn6HJWd/7gkkgGdpj+2NNVbXN9jM
+      5SjXfMx4E0cPaO7NbOP7LsUtn77BAwCoYpG87+/5FfnVaVZzDlsVjzZLQyyFvbGBb37fBb5E
+      Am/n9Uc9HRiGQpXLlB2H3bfxvj3H5HyZWilPJJ5BWVFqG3mcfXphvgTwHSZNbR309nbB9jzz
+      c2usFV0S2QGOHmzCUCaUcqzaVQCUdnlm+8dQYJjQ1JKmYPtop4qyopjPz3NAdWJg+g4rmzk0
+      UNuuEs1a+LWnR0Eq0JiWiUq0YFLDs6sElkV0n64bCeBZSqEMg/LqHMtOC8MnD6Lysyxs1IhE
+      FBgGhgLfqZDLz7HuddNRXSXvazSKbG8PSV9x4OwpIiuLlKp5bty5yZYTJbbff1u9GQYGCq19
+      tjfmeZBLcjjpkK+U0UCyOUuTitFx8jCdqszaRpGpqZs8zAUk92vkfbrc55f2KW1tsulEOXvm
+      GHEjwsH+flbGPuXWdJ5AQ+DXmH1wn9mHy3SfPcPQQJzrX4xRrGpaWyJUzQNkmxys7GneuTjK
+      hbMDaDMRirffae2xOnWP6fkNmg4PcqSnice377KyXSOZiFGI9nC4tUQ5cpD33r7EyNlXyKTj
+      +3bjEIb/ye9JYcVS9A20Y7g2qUSSSKKZC5ffo+hEUECie5ATzibtvQc5kDZBD3Ds4GPcWo0N
+      u8bg8GGSbLNSNDCUZvXxEq0Dh4nu95/WAJFMK8ePHiN9oJf21hYw4fTREqWaR6G2xYH+frJJ
+      n5rvYpoGW6trmNks8X2a94V5KcT09DSDg4P7PYZ4ibxQL4UQoh5emF0gz/OYmZnZ7zHES+aF
+      CcA0Tfr6+vZ7DPGSeWECUEphGLLHJn5cskWJUJMARKhJACLUJAARahKACLX6B6AD7Nwydydn
+      cLwA0DilTcZvXeX62CNKzs5LKYvrs9y4epVHizn8F+K5afEyqHsAtdwCN+4/Ymp2AafmoTU8
+      uPU1eS+Kac9yZXyBIChw/avbuGaE+zevsLJVqfdYQgANCCCW7ePtNy7Q25p+8s6gku0zdOIU
+      Zy5cILEyTX7lPvbB17k4+ioXB7KsFEv1HksIYJ+eCOvrb+fzv/uvVM0UMVfTW+ok2dyMQpFK
+      KezyzhsoHMd5stKY7/tUKnLPIH5cDQ9AKUXv8Tf4y+NvgLvKR796RGtTFHtpG007tq1JNe3c
+      MUWjT19AbJqmLIwlfnR1D8ApbjI9P8Pc3AJam/QeOUzMXmRho0xuaZr08bdIH4iTufJrvvIP
+      srma49xbp+s9lhBAA44BtPZxHE1fXy9K+Xh+QDQeh8Cn4+gFRg9nUUaGc2+cIxUxOX3+Ep3N
+      cksvGkPeECNCS94QI0JPAhChJgGIUJMARKhJACLUJAARahKACDUJQISaBCBCTQIQoSYBiFB7
+      YRbGEi8n9+HH4DXufR5Gx3HM9uEnpyUAsa9qn/5ndGm1YZcXfeNv9wQgu0Ai1CQAEWoSgAg1
+      CUCEmgQgQk0CEKFW/4dBtcZzq5SqAU3pJIYBgedSKpVwA4N0UxOxiIFbtSnaVaxEmlQihvHS
+      f6i0eB7UPQC3sMK1sQkerQf8xU/fIZO0WLj3NTemcqB9kgdO886bA9z+5FfMV0y8SDMfvP8W
+      7ekwfKio2G91D8BMtvHKyDnMiWkMQAObWwVeefNP6M9UuPr5PaqbNVabzvHnP+1j8ebXLGwV
+      aE+313s0IeofgGHFSFsaQ+3s0yigb2CArz/7Jb/zIwyPvEWqNEm66xiWadKRjTFn76wY7TjO
+      k9/j+z7VarXe44oGa/SiPJ7noXdtRw1/KYQGFueXGH79p/TES1y59oDiySi1cgVNlFrNIJHY
+      OTa3LOvJz5mmSSwWa/S4os48tbNNNEokEiG6azuqewCB7+E4VRynRrVaw4qZlEtFLK3BNPDs
+      ErXWUYIb11nueZWp2RW6R44AO+uI7vbsaSH+ELu3o7oHUF6f5tMvr1GswezsMsdee5Mz5y/y
+      uy8/YcyJc/b1t+lKN3HxzDJffPIpnadeZ6C9qd5jCQE0IIB01zA/+9fD3zn/vZ8d2nO6fXCE
+      fzU4Uu9xhNhDnggToSYBiFCTAESoSQAi1CQAEWoSgAg1CUCEmgQgQk0CEKEmAYhQkwBEqEkA
+      ItQkABFqEoAINQlAhJoEIEJNAhChJgGIUJMARKg1YGnEgK2Vx9yeK3Np5BQxy2DsN7/kcX7n
+      y4nmg7z21nm85TGu3pmlfXiUs8M9WJKmaIC6B1DLLXB/aRvX8fFdHyyDIyOXOehBUF7g6v2A
+      mF7j65vLHD0/yuydW8y3NXG4I13v0YSo/y5QLNvHa+dO0ZLYWetTKUWyqY221mbsdZtDpwaJ
+      b04TDF5gsLebMwOd5CqN+9A0EW779iF5XnWbpbLB6WwT/nKNeCqFQhGPa8rlANhZGlF/s3ae
+      7/tUJIyXzn4sjRjs2o72KQBNYfkhRvYIKUthJDOUplbxBnvI5V0yHSYA0ejTFaJN0ySRSOzP
+      uKJuSvuwNGJs13ZU/5XhNue5cWeMyek1VlZyHBkd4Vibz/iMYuS97M7nAHScoOPK/+b//CqJ
+      o+O8Mywrw4nGqHsA0VQrR46dYWAYwCTdnAQLzl46Q/rJEo1xRt79CbntMrFMGy3y2QCiQeoe
+      QCSepqvnu4/oNKX2no6lWuhOtdR7HCH2kEfbRahJACLUJAARahKACDUJQISaBCBCTQIQoSYB
+      iFCTAESoSQAi1CQAEWoSgAg1CUCEmgQgQk0CEKEmAYhQkwBEqEkAItQkABFq9Q9AayqFDabm
+      lnH9nfV+CDxyyzOMj08wv1ECoJxf5sHEBPNrBfwGrxUjwqvuAdRyc/zu1hg3xyepVj3Qmq2F
+      Cb688YBSqUi+UAZd5sbnX7K4mePq11+yXqjWeywhgAasChHL9vPu5U6uXbuPwc4iSDPzS5y8
+      cJnDB5I737R6la2et/mz8x2sjV1jYbtIV3O83qMJsT8rwznbK1z5f3/PZ1Wf4XNvcyFTIdXa
+      gkKRTitsWRoxNEK5NGK0qYvXLr1HX5PHtV9/yOLhXsp2AU2WchlSmZ09M1ka8eX30i+N6FYK
+      rKwtsba2SjKZofNQDwc62ng0OYGfjWKrVgb7hkl8+AW3Y0OszG5w6rWT9R6rrqYWc3jfHvA3
+      QEdLirYmuXH4Q9Q9AK9SZGlhhWQyxtraKtG2LENDZ3D8ceZWtxk8d4GOeIpzF48z8XCF/tMX
+      6GlN1nusuvpP/+U35IuNO5D/mz8+y8/fOdGwy3uZ1D2ARFsvl97s/c75AyfPMbDrdHPXEV7v
+      OlLvcYTYQ54IE6EmAYhQkwBEqEkAItQkABFqEoAINQlAhJoEIEJNAhChJgGIUJMARKhJACLU
+      JAARahKACDUJQISaBCBCTQIQoSYBiFCTAESo1X9ZFK0JAh/P11hWBKUUOvBxXBetQZkRolYE
+      7bu4boARiRAxTZSq+2RCNGBZlNIGt8bucHfR5ed/+j5NKYv1B9f5v1fuYFpJWvtG+OCtIcY+
+      /nvurdcwm3v54w/epC1p1Xs0IeofgBFNcfjkWQJrHhNAg+0bXHzvLzjW177zTflxluKv8G/+
+      aoi5a1+ykC/QlszWezQh6h+AGUuSjRlM79qnKReXuHNrmocd7Zy58Bq9xRyp3ovEIhF6OlPc
+      sD0AXNd9sjRiEATUarV6j/uj2I/l/l6U6+ZZjV4I3Pf3Xlf7sjTi8Kvv0320hmOvceuLK6Rf
+      jeLWamiiuK4iFt05NjdN88nPKKWwrBdjt6jRxy+mab4w182zXBobgfHMddXwADSwPDdN+uBx
+      2qI1lL+IbhvCvXmT/OAFJmdWaD0ztDOs8fRBKqXUntPiKblu/uUUe6+rugdQXLzHh599xXYV
+      7ty5z6nL73IiE+U3//jf2PQzvPnBB7SlUpw/vsBHv/gFXWcuc/hAU73HEgJoQACZ3hP8/N89
+      u25lFz/7y2N7zzn6Gv/26Gv1HkeIPeR+U4SaBCBCTQIQoSYBiFCTAESoSQAi1CQAEWoSgAg1
+      CUCEmgQgQk0CEKEmAYhQkwBEqEkAItQkABFqEoAINQlAhJoEIEJNAhChVv8AdEBhbZYrtx9Q
+      c/0nZwdejcmbXzObrwCwtTTJ5598wtjjNbxGLxYjQqvuAdRyC4zNLLOZy+E63wagKaxOcuvK
+      BAvbZfByXLv2iNbegyzfu85izq73WEIADQgglu3jzYuv0pFJ8O16Ubqywd3JAqdHjmAZwPoj
+      nL5LnDp6hNHBDtbtcr3HEgLYj4WxtGbm4RTtwydo2RinBPhOlUQmg0KRSEC5HADgOM6TpRF9
+      36dSqTR63D+IbvDaiJ7nvjDXzbP2YxnJYNd1tQ9LI+b44p9+TaF1Agpr1NqW6bh0ENvOow8f
+      oFgMSLXu3DFFo9EnP2WaJolEovHj/gFUg9dGjESsF+a6eVZJNXZpxEgkQmzXdVX3AKpby0xM
+      TvLg4TLFYpWBUyf59//hPwKwcutz5tpOMtiXZOkf/pGPP22nWHJ5c0BWhhONUf/l0a04La2d
+      nDvXCURIxp5eZNvQKyStFGAxevkyS2vbJLPddGRi9R5LCKABAURTrRwebv3+r2Va+HYnJ9F8
+      gKHmA/UeR4g95IkwEWoSgAg1CUCEmgQgQk0CEKEmAYhQkwBEqEkAItQkABFqEoAINQlAhNr/
+      B0r88x08usI/AAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
